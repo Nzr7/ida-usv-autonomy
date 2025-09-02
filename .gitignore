@@ -1,0 +1,16 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# büyük/videolar
+models/
+weights/
+datasets/
+recordings/
+*.mp4
+*.mkv
+
+# sistem
+.DS_Store
+Thumbs.db

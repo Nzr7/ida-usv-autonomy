@@ -1,0 +1,22 @@
+video:
+  udp_port: 5600
+  fov_deg: { hfov: 60.0, vfov: 60.0 }
+
+model:
+  weights: models/best.pt
+  classes:
+    0: sari_duba
+    1: kirmizi_duba
+    2: yesil_duba
+    3: turuncu_duba
+    4: siyah_duba
+
+mavlink:
+  conn: "udp:127.0.0.1:14551"
+  guided_mode_custom: 4
+
+logic:
+  approach_thresh_m: 3.0
+  center_band: 0.45
+  color_wait_enable: true
+  color_wait_timeout_s: null
