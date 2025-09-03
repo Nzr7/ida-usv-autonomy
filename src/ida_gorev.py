@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Bu sürümde (1) SON WPT'YE VARINCA GERÇEKTEN DUR/BEKLE (COLOR WAIT) mantığı eklendi,
-(2) MAVLink'ten renk kodu dinleme (STATUSTEXT / NAMED_VALUE_INT / PARAM_VALUE) geldi,
-(3) Son WPT'de pozisyon tutma için aynı WPT'ye tekrar tekrar konum komutu ve düşük hız,
-(4) HUD/Log zenginleştirildi
-
 NOT:
 - “5. nokta” son nokta olarak kabul edilir. Aracın burada durup beklemesi hedeflenir.
 - Renk kodu gelmediği sürece burada bekler (timeout opsiyonel).
